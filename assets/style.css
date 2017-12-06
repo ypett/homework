@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+}
+
+.jumbotron {
+	/*font-family: 'Handlee', 'sans-serif';*/
+	/*margin-top: 70px;*/
+	background-image: url('https://static.pexels.com/photos/34578/pexels-photo.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 93vh;
+	margin: 0;
+}
+
+/*.jumbotron h1 {
+	text-align: center;
+	color: white;
+}
+
+.jumbotron h2 {
+	text-align: center;
+}*/
+
+.navbar {
+	/*background: rgba(0, 0, 0, 0);*/
+  /*background: rgba(0, 0, 0, 0.5);*/
+	/*color: black;*/
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	/*position: absolute;*/
+	/*left: 35%;*/
+	/*text-align: center;*/
+}
+
+.navbar a:hover {
+	/*color: black;*/
+}
+
+.bgimg-2 {
+	/*background-image: url('https://c1.staticflickr.com/7/6030/5966894496_cdfeb202cc_b.jpg');*/
+	background-image: url('https://cdn.pixabay.com/photo/2014/12/30/23/23/mardi-gras-584508_960_720.jpg');
+	/*min-height: 500px;*/
+	/*height: 100%;*/
+	/*opacity: 0.65;*/
+}
+
+.bgimg-3 {
+	/*background-image: url(https://cdn.pixabay.com/photo/2014/05/02/21/47/workstation-336369_960_720.jpg);*/
+	/*background-image: url('https://images.pexels.com/photos/113850/pexels-photo-113850.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');*/
+	background-image: url('https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+
+}
+
+.bgimg-2, .bgimg-3 {
+	  position: relative;
+    /*opacity: 0.65;*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+		opacity: 0.65;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.caption span.border {
+    /*background-color: #111;*/
+    /*color: #fff;*/
+    /*color: #000;*/
+    padding: 18px;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.features {
+  font-family: 'Muli', 'sans-serif';
+  color: #323232;
+  padding-top: 30px;
+
+}
+
+.features img {
+  width: 100%;
+}
+
+.footer a {
+	color: gray;
+	/*background-color: yellow;*/
+}
+
+.footer p {
+	text-align: center;
+}
+
+.footer border {
+	border-top: 1px solid #F0EEEE;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgb(240, 238, 238);
+}
+
+
+/* for carousel */
