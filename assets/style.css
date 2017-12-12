@@ -2,7 +2,7 @@
 
 body, html {
     /*height: 100%;*/
-    font-family: 'Handlee', cursive;
+    font-family: 'Handlee', sans-serif;
 }
 
 .jumbotron {
@@ -120,6 +120,8 @@ body, html {
   width: 100%;
 }
 
+
+
 .footer a {
 	color: gray;
 	/*background-color: yellow;*/
@@ -137,4 +139,22 @@ body, html {
 }
 
 
-/* for carousel */
+/* for About page */
+#id-for-about {
+    background-color: #c5c6c7;
+}
+
+.class-for-about {
+    background-image: url('woman-employee.png');
+    background-color: #c5c6c7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    height: 100vh;
+
+}
+
+.list ul {
+  list-style-type: none;
+
+}
