@@ -113,14 +113,12 @@ body, html {
   /*font-family: 'Muli', 'sans-serif';*/
   color: #323232;
   padding-top: 30px;
-
+  text-align: center;
 }
 
 .features img {
   width: 100%;
 }
-
-
 
 .footer a {
 	color: gray;
@@ -157,4 +155,21 @@ body, html {
 .list ul {
   list-style-type: none;
 
+}
+
+/* for Experience page */
+.experience-class img {
+    width: 20%;
+    margin: 20px;
+    float: left;
+}
+
+.exp-summary {
+    font-size: large;
+    margin: 20px;
+}
+
+.exp-text {
+    text-align: justify;
+    margin-right: 20px;
 }
