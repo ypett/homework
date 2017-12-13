@@ -64,7 +64,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-		opacity: 0.65;
+	opacity: 0.65;
 }
 
 .caption {
@@ -149,7 +149,6 @@ body, html {
     background-size: cover;
     background-position: right top;
     height: 100vh;
-
 }
 
 .list ul {
@@ -187,5 +186,25 @@ body, html {
 }
 
 .projects p {
+    font-size: 1.5em;
+}
+
+/* for Contact page */
+.contacts {
+    text-align: center;
+    height: 100vh;
+}
+
+.contacts h1 {
+    padding: 20px;
+}
+
+.contacts img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.contacts p {
     font-size: 1.5em;
 }
