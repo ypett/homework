@@ -26,19 +26,10 @@ body, html {
 	text-align: center;
 }*/
 
+/* for navbar */
 .navbar {
-	/*background: rgba(0, 0, 0, 0);*/
-  /*background: rgba(0, 0, 0, 0.5);*/
-	/*color: black;*/
 	background-color: rgba(0, 0, 0, 0.5);
 	border: none;
-	/*position: absolute;*/
-	/*left: 35%;*/
-	/*text-align: center;*/
-}
-
-.navbar a:hover {
-	/*color: black;*/
 }
 
 .bgimg-2 {
